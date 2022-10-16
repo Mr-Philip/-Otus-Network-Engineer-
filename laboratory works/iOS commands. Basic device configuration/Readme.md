@@ -1,6 +1,6 @@
 # **Лабораторная работа. Базовая настройка коммутатора **
 
-![Топология и Таблица адресации](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/iOS%20commands.%20Basic%20device%20configuration/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png "Топология")
+Топология и Таблица адресации![Топология и Таблица адресации](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/iOS%20commands.%20Basic%20device%20configuration/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png "Топология")
 
 **	Задачи**
 ##### Часть 1. Проверка конфигурации коммутатора по умолчанию
