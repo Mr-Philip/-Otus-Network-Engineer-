@@ -68,7 +68,7 @@ h.	Изучаю свойства по умолчанию интерфейса Fa
 включен  
 Что нужно сделать, чтобы включить интерфейс?  
 ввести команду no shutdown в режиме конфигурации интерфейса  
-***Switch#conf
+```Switch#conf
 Switch#configure t
 Switch#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
@@ -77,7 +77,8 @@ Switch(config)#interface f
 Switch(config)#interface fastEthernet 0/6
 Switch(config-if)#no shu
 Switch(config-if)#no shutdown
-Switch(config-if)#***  
+Switch(config-if)#```
+
 Какой MAC-адрес у интерфейса?
  00:E0:B0:E3:98:E3  
 Какие настройки скорости и дуплекса заданы в интерфейсе? 
