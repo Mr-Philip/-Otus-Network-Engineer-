@@ -19,7 +19,9 @@
 a. Подсоединяю консольный кабель, как показано в топологии. На данном этапе не подключаю кабель Ethernet к компьютеру PC-A.  
 Согласно примечанию использую Netlab отключая интерфейс F0/6 на коммутаторе S1.  
 
-![Шаг1а](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/f18eaa391e5dacc8354e27989fec37525ccf7687/laboratory%20works/iOS%20commands.%20Basic%20device%20configuration/pics/Step1(a).png)
+![Шаг](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/f18eaa391e5dacc8354e27989fec37525ccf7687/laboratory%20works/iOS%20commands.%20Basic%20device%20configuration/pics/Step1(a).png)  
+![Шаг](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/f18eaa391e5dacc8354e27989fec37525ccf7687/laboratory%20works/iOS%20commands.%20Basic%20device%20configuration/pics/Step1(b).png)
+
 
 b.Устанавливаю консольное подключение к коммутатору с компьютера PC-A с помощью Tera Term или другой программы эмуляции терминала.  
 Вопрос:  
