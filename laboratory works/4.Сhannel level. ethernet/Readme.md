@@ -2,17 +2,17 @@
 # Лабораторная работа. Просмотр таблицы MAC-адресов коммутатора  
 
 ##### Топология
-[![Топология](Топология "Топология")](http://https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png#L4 "Топология")  
+[![Топология](Топология "Топология")](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png#L4 "Топология")  
 ## Цели  
 ### Часть 1. Создание и настройка сети  
 ### Часть 2. Изучение таблицы МАС-адресов коммутатора  
 #### Часть 1. Создание и настройка сети  
 ##### Шаг 1. Подключаю сеть в соответствии с топологией.  
-[![11](11 "11")](http://https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.1.png "11")  
+[![11](11 "11")](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.1.png "11")  
 ##### Шаг 2. Настраиваю узлы ПК.  
-[![12](12 "12")](http://https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.2.png "12")  
+[![12](12 "12")](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.2.png "12")  
 ##### Шаг 3. Выполните инициализацию и перезагрузку коммутаторов.  
-[![13](13 "13")](http://https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.3.png "13")  
+[![13](13 "13")](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.3.png "13")  
 ##### Шаг 4. Настройте базовые параметры каждого коммутатора.  
 
 **Открываю окно конфигурации**  
@@ -23,7 +23,7 @@ b.	Настраиваю IP-адреса, как указано в таблице
 c.	Назначаю cisco в качестве паролей консоли и VTY.  
 
 d.	Назначаю class в качестве пароля доступа к привилегированному режиму EXEC.  
-[![14](14 "14")](http://https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.4.png "14")  
+[![14](14 "14")](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.4.png "14")  
 **закрываю окно настройки.**  
 #### Часть 2. Изучение таблицы МАС-адресов коммутатора  
 Как только между сетевыми устройствами начинается передача данных, коммутатор выясняет МАС-адреса и строит таблицу.
