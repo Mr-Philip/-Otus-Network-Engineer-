@@ -1,8 +1,8 @@
 
 # Лабораторная работа. Просмотр таблицы MAC-адресов коммутатора  
 
-##### Топология
-[![Топология](Топология "Топология")](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/Step1.1.png)  
+##### Топология и
+![Шаг](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/4.%D0%A1hannel%20level.%20ethernet/Pics/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png)
 ## Цели  
 ### Часть 1. Создание и настройка сети  
 ### Часть 2. Изучение таблицы МАС-адресов коммутатора  
