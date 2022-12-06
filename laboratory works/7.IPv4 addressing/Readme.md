@@ -12,7 +12,7 @@
 мы рассчитываем выполняя побитовую операцию использую гребенку 
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/7.IPv4%20addressing/Pics/%D0%B3%D1%80%D0%B5%D0%B1%D0%B5%D0%BD%D0%BA%D0%B0.png)  
 Переводим ip-адрес узла в двоичный вид  
-![]((https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/7.IPv4%20addressing/Pics/%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0.png)  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/7.IPv4%20addressing/Pics/%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0.png)  
 Из полученных расчетов получаем двоичный вид нашего ip-адреса(11000000	10101000	11001000	10001011), что позволяет нам узнать Network, First, Last and Broadcast address используя узловую часть или количество бит узлов подсети. Первые 27 бит у нас неизменны 11000000	10101000	11001000	100 и мы их не меняем остальные 5 (01011) у нас используются для нашей сети. Выполняя побитовую операцию получаем:  
 Сетевой адрес этой подсети|11000000	10101000	11001000	100 00000|192.168.200.128
 ---|---|---
