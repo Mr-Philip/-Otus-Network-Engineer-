@@ -1,9 +1,4 @@
-### Features
-
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Em# Лабораторная работа - Расчет подсетей IPv4  
-
+# Лабораторная работа - Расчет подсетей IPv4 
 ## Задачи
 ### Часть 1. Определение подсетей по IPv4-адресу
 ### Часть 2. Расчет подсетей по IPv4-адресу
