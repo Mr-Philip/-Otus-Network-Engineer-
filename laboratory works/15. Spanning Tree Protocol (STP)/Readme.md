@@ -1,6 +1,6 @@
 # Лабораторная работа. Развертывание коммутируемой сети с резервными каналами
 **Топология**  
-![]([1](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/15.%20Spanning%20Tree%20Protocol%20(STP)/Pics/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png))
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/15.%20Spanning%20Tree%20Protocol%20(STP)/Pics/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png)  
 
 **Таблица адресации**  
 
