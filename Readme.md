@@ -12,11 +12,11 @@
    - [13.Технология VLAN, маршрутизация в VLAN](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/13.%20VLAN%20technology%2C%20routing%20to%20VLAN)   
    - [15.Протокол связующего дерева (STP)](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/15.%20Spanning%20Tree%20Protocol%20(STP))   
    - [18.Протоколы DHCPv4, SLAAC и DHCPv6](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/18.DHCPv4%2C%20SLAAC%2C%20and%20DHCPv6%20protocols)  
-   - [20.Принципы обеспечения безопасности сети]()   
-   - [23.OSPF. Настройка OSPF для одной области]()  
-   - [26.Списки контроля доступа. ACL]()   
-   - [29.Протокол NAT]()  
-   - [32.Проектирование и управление сетью]()   
+   - [20.Принципы обеспечения безопасности сети](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/20.Network%20Security%20Principles)   
+   - [23.OSPF. Настройка OSPF для одной области](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/23.OSPF.%20Configuring%20OSPF%20for%20a%20Single%20Area)  
+   - [26.Списки контроля доступа. ACL](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/26.%20Access%20control%20lists.%20ACL)   
+   - [29.Протокол NAT](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/29.NAT%20protocol)  
+   - [32.Проектирование и управление сетью](https://github.com/Mr-Philip/-Otus-Network-Engineer-/tree/main/laboratory%20works/32.%20Network%20design%20and%20management)   
 
 ------------
 
