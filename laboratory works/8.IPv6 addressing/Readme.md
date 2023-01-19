@@ -1,4 +1,4 @@
-# Лабораторная работа. Настройка IPv6-адресов на сетевых устройствахЛабораторная работа. Настройка IPv6-адресов на сетевых устройствах
+# Лабораторная работа. Настройка IPv6-адресов на сетевых устройствах
 
 **Топология**  
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/8.IPv6%20addressing/Pics/%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.png)  
