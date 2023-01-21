@@ -25,8 +25,8 @@
 ## Часть 1. Настройка основного сетевого устройства
 **Шаг 1. Создаю сеть.**  
 a.	Создаю сеть согласно топологии.  
-![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/11a.PNG)
-b.	Инициализация устройств
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/11a.PNG)  
+b.	Инициализация устройств  
 **Шаг 2. Настройте маршрутизатор R1.**  
 a.	Загружаю следующий конфигурационный скрипт на R1.
 `enable`
