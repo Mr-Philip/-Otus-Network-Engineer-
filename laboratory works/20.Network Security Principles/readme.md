@@ -104,42 +104,45 @@ b.	Убеждаюсь, что неиспользуемые порты отклю
 **Шаг 4. Документирование и реализация функций безопасности порта.**  
 Интерфейсы F0/6 на S1 и F0/18 на S2 настроены как порты доступа. На этом шаге настраиваю безопасность портов на этих двух портах доступа.  
 a.	На S1, ввожу  команду `show port-security interface f0/6`  для отображения настроек по умолчанию безопасности порта для интерфейса F0/6.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/34a.PNG)  
 b.	На S1 включаю защиту порта на F0 / 6 со следующими настройками:  
 o	Максимальное количество записей MAC-адресов: 3  
 o	Режим безопасности: restrict  
 o	Aging time: 60 мин.  
 o	Aging type: неактивный  
 c.	Verify port security on S1 F0/6.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/34bc.PNG)  
 ![]()  
 d.	Включаю безопасность порта для F0 / 18 на S2. Настраиваю каждый активный порт доступа таким образом, чтобы он автоматически добавлял адреса МАС, изученные на этом порту, в текущую конфигурацию.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/34d.PNG?raw=true)  
 e.	Настраиваю следующие параметры безопасности порта на S2 F / 18:  
 o	Максимальное количество записей MAC-адресов: 2  
 o	Тип безопасности: Protect  
 o	Aging time: 60 мин.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/34e.PNG?raw=true)  
 f.	Проверяю функции безопасности портов на S2 F0/18.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/34f.PNG)  
 **Шаг 5. Реализовать безопасность DHCP snooping.**  
 a.	На S2 включаю DHCP snooping и настраиваю DHCP snooping во VLAN 10.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/5a.PNG)  
 b.	Настраиваю магистральные порты на S2 как доверенные порты.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/5b.PNG)  
 c.	Ограничиваю ненадежный порт Fa0/18 на S2 пятью DHCP-пакетами в секунду.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/5c.PNG)  
 d.	Проверка DHCP Snooping на S2.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/5d.PNG)  
 **Шаг 6. Реализация PortFast и BPDU Guard**  
 a.	Настраиваю PortFast на всех портах доступа, которые используются на обоих коммутаторах.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/6as1.PNG)  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/6as2.PNG)  
 b.	Включа. защиту BPDU на портах доступа VLAN 10 S1 и S2, подключенных к PC-A и PC-B.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/6bs1.PNG)  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/6bs2.PNG)  
 c.	Убеждаюсь, что защита BPDU и PortFast включены на соответствующих портах.  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/6c.PNG)  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/6cs2.PNG)  
 **Шаг 7. Проверяю наличие сквозного ⁪подключения.**  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/ping%20pc-a%20to%20pc-b.PNG)  
 Проверьте PING свзяь между всеми устройствами в таблице IP-адресации. В случае сбоя проверки связи может потребоваться отключить брандмауэр на хостах.
 Закройте окно настройки.
 Вопросы для повторения
