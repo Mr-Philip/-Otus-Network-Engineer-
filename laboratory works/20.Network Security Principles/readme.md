@@ -53,7 +53,7 @@ a.	Загружаю следующий конфигурационный скри
 `line con 0`  
  `logging synchronous`  
 ` exec-timeout 0 0`   
-![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/12a.PNG)
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/12a.PNG)  
 b.	Проверяю текущую конфигурацию на R1, используя следующую команду:  
 `R1# show ip interface brief`  
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/20.Network%20Security%20Principles/pics/12b.PNG)  
