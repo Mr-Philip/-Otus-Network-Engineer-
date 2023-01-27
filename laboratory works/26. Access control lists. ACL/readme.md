@@ -86,17 +86,20 @@ b.	Настройте R1 для проверки подлинности поль
 ## Часть 7. Настройка и проверка списков контроля доступа (ACL)  
 При проверке базового подключения компания требует реализации следующих политик безопасности:
 Политика1. Сеть Sales не может использовать SSH в сети Management (но в  другие сети SSH разрешен).  
-``
+`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.20.0.0 0.0.0.255 eq 22`  
 Политика 2. Сеть Sales не имеет доступа к IP-адресам в сети Management с помощью любого веб-протокола (HTTP/HTTPS). Сеть Sales также не имеет доступа к интерфейсам R1 с помощью любого веб-протокола. Разрешён весь другой веб-трафик (обратите внимание — Сеть Sales  может получить доступ к интерфейсу Loopback 1 на R1).  
-``
+`access-list 101 deny tcp 10.40.0.0 0.0.0.255 host 172.16.1.1 eq www`    
+`access-list 101 deny tcp 10.40.0.0 0.0.0.255 host 172.16.1.1 eq 443` 
+`access-list 101 permit ip any any`  
 Политика3. Сеть Sales не может отправлять эхо-запросы ICMP в сети Operations или Management. Разрешены эхо-запросы ICMP к другим адресатам.  
-``
+`access-list 101 deny icmp 10.40.0.0 0.0.0.255 10.30.0.0 0.0.0.255 echo`  
+`access-list 101 deny icmp 10.40.0.0 0.0.0.255 10.20.0.0 0.0.0.255 echo`  
 Политика 4: Cеть Operations  не может отправлять ICMP эхозапросы в сеть Sales. Разрешены эхо-запросы ICMP к другим адресатам.  
-``
+`access-list 102 deny icmp 10.30.0.0 0.0.0.255 10.40.0.0 0.0.0.255 echo`  
+`access-list 102 permit ip any any`  
 **Шаг 1. Проанализируйте требования к сети и политике безопасности для планирования реализации ACL.**  
 **Шаг 2. Разработка и применение расширенных списков доступа, которые будут соответствовать требованиям политики безопасности.**  
 **Шаг 3. Убедитесь, что политики безопасности применяются развернутыми списками доступа.**  
-![]()  
-![]()  
-![]()  
-![]()  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/26.%20Access%20control%20lists.%20ACL/pics/73pc-a.PNG)  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/26.%20Access%20control%20lists.%20ACL/pics/73pc-b.PNG)  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/26.%20Access%20control%20lists.%20ACL/pics/73pc-bHTTPS10.PNG)  
