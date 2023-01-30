@@ -2,7 +2,7 @@
 
 **Топология**  
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/29.NAT%20protocol/pics/Topology.PNG)  
-**Таблица адресации**
+**Таблица адресации**  
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/29.NAT%20protocol/pics/table%20address.PNG)  
 ##Цели  
 **Часть 1. Создание сети и настройка основных параметров устройства**  
