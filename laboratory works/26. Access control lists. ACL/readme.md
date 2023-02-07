@@ -106,10 +106,10 @@ b.	Настройте R1 для проверки подлинности поль
 `access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.20.0.0 0.0.0.255 eq 22`  
 `access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.20.0.0 0.0.0.255 eq 80`  
 `access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.20.0.0 0.0.0.255 eq 443`  
-`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.30.0.0 0.0.0.255 eq 80`  
-`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.30.0.0 0.0.0.255 eq 443`  
-`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.40.0.0 0.0.0.255 eq 80`  
-`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.40.0.0 0.0.0.255 eq 443`  
+`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.30.0.1 0.0.0.0 eq 80`  
+`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.30.0.1 0.0.0.0 eq 443`  
+`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.40.0.1 0.0.0.0 eq 80`  
+`access-list 101 deny tcp 10.40.0.0 0.0.0.255 10.40.0.1 0.0.0.0 eq 443`  
 `access-list 101 deny icmp 10.40.0.0 0.0.0.255 10.30.0.0 0.0.0.255 echo`  
 `access-list 101 deny icmp 10.40.0.0 0.0.0.255 10.20.0.0 0.0.0.255 echo`  
 `access-list 101 permit ip any any`  
