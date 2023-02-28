@@ -1,4 +1,4 @@
-# Лабораторная работа. Доступ к сетевым устройствам по протоколу SSHЛабораторная работа. Доступ к сетевым устройствам по протоколу SSH
+# Лабораторная работа. Доступ к сетевым устройствам по протоколу SSH
 
 **Топология**  
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/laboratory%20works/11.%20Fundamentals%20of%20network%20security/Pics/Networkmap.png)  
