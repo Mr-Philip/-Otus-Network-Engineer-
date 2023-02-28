@@ -227,3 +227,7 @@
 `switchport mode trunk`  
 `spanning-tree vlan 11-18,44,55 cost 10`  
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/STP.jpg)  
+#### Пример пинга до устройства
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/ping.jpg)  
+#### Пример удаленного подключения к сетевому устройству
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/ssh%20.jpg)  
