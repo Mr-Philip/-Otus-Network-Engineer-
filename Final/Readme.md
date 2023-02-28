@@ -216,7 +216,17 @@
 `exit`  
 `exit`  
 `copy run start`  
-  
+#### Пример STP на Mainsw чтоб трафик шел через Main коммутатор
+`interface FastEthernet0/1`  
+`switchport trunk native vlan 44`  
+`switchport trunk allowed vlan 11-18,44,55`  
+`switchport mode trunk`  
+`spanning-tree vlan 11-18,44,55 cost 10`  
+`interface FastEthernet0/2`  
+`switchport trunk native vlan 44`  
+`switchport trunk allowed vlan 11-18,44,55`  
+`switchport mode trunk`  
+`spanning-tree vlan 11-18,44,55 cost 10`  
 
 
 
