@@ -19,7 +19,7 @@
 #### Топология было
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%20%D0%B1%D1%8B%D0%BB%D0%BE.jpg)  
 #### Таблица ip было 
-![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/%D0%98%D0%9F%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0_%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0_1.jpg)  
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.jpg)  
 #### Топология стало  
 ![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.jpg)  
 #### Таблица ip стало 
@@ -126,17 +126,16 @@
 `interface g0/0/1`  
 `ip nat outside`  
 `exit`  
-`Ip ssh version 2`
-`username mdiadmin privilege 15 secret adminmdi`
-`ip domain-name mdi.com`
-`crypto key generate rsa general-keys modulus 1024`
-`line vty 0 4`
-`transport input ssh`
-`login local`
-`exit`
-`exit`
-`copy run start`
-#### Пример настройки коммутатора  
+`Ip ssh version 2`  
+`username mdiadmin privilege 15 secret adminmdi`  
+`ip domain-name mdi.com`  
+`crypto key generate rsa general-keys modulus 1024`  
+`line vty 0 4`  
+`transport input ssh`  
+`login local`  
+`exit`  
+`exit`  
+`copy run start`  
 #### Пример настройки коммутатора  
 `conf t`  
 `host DIRCONCADR`  
@@ -227,53 +226,4 @@
 `switchport trunk allowed vlan 11-18,44,55`  
 `switchport mode trunk`  
 `spanning-tree vlan 11-18,44,55 cost 10`  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](https://github.com/Mr-Philip/-Otus-Network-Engineer-/blob/main/Final/Pics/STP.jpg)  
